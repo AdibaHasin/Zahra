@@ -1,4 +1,4 @@
-PHP/JavaScript based web application
+PHP/JavaScript based web application (running on xammp)
 Admin/Dashboard Area:
 Category management: (Manage category) Add category, update category, Delete category
 Product management: (Manage Items) Add item to the categoey, Delete Items,  Update Items
