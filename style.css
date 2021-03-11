@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sunflower:wght@300&display=swap');
+.maincontent{
+    background-color: hsla(35, 19%, 83%, 0.973);
+   
+}
+
+.item{
+
+    
+    width: 40%;
+    background-color: rgb(216, 199, 199);
+    margin: 5%;
+    padding: 1em;
+    float: left;
+    border-radius: 20px;;
+    
+
+
+}
+
+.total-row{
+
+    margin-top: 5px;
+}
+
+
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.text-white{
+    color:black;
+}
+.categories{
+
+    padding: 4% 0;
+    
+}
+.box-3{
+
+    
+    width: 40%;
+
+    float:left;
+    margin: 1%;
+
+}
+
+.error{
+    color: red;
+}
+
+.img-responsive{
+
+    width: 100%;;
+}
+.img-curve{
+    border-radius: 20px;
+}
+.item-container{
+
+    width: 100%;
+   
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+  /* On mouse-over, add a deeper shadow */
+  .item-row:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    
+    margin: 0 auto;
+  
+   
+  }
+.cart-items{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+.row-element{
+    width: 100%;
+    display: block;
+}
+.shop-box{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.row{
+    width: 80%;
+   margin: 0 auto;
+   margin-top: 10px;
+    
+
+}
+.cart-row{
+   display: block;
+   clear: both;
+   margin-top: 5px;
+
+    padding-right: 2px;
+  
+  
+   display: block;
+   
+  
+    
+}
+.login-details{
+
+   padding-right:5px;
+}
+
+.row-element{
+    
+    padding-top: 2em;
+
+    
+}
+.container{
+    width: 100%;
+    padding-bottom: 10%;
+    margin:0 auto;  
+
+}
+.third-container{
+    position: relative;
+    width: 80%;
+    height:300px;
+
+    margin: 0 auto;
+    
+    display: flex;
+    justify-self: center;
+
+
+}
+.image-container{
+    
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    display: flex;
+    
+    border: none;
+  
+}
+.text{
+    top:50%;
+    left:50%;
+    margin-top:-50px; /* this is half the height of your div*/  
+    margin-left:-100px;
+   
+    text-align: center;
+    position: absolute;
+    color: azure;
+}
+.text-box_desc{
+    text-align:center;
+    padding-top: 3em;
+}
+.desc-image{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.Shop-now_button{
+    display: inline-block;
+    padding: 1.2rem 2.5rem;
+    margin: 1rem 0;
+    border: none;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    text-transform: none;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.order-btn{
+
+    display: inline-block;
+    border-radius: 8px ;
+    border: none;
+background-color:white;
+}
+
+.discover-section{
+    margin-top: 2em;
+}
+.shareitandco{
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'Noto Serif', serif;
+}
+
+.social{
+    width:60%;
+    height: 500px;
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.faderule{
+    height: 1px;
+    background-color: #E6E6E6;
+    width: 50em;
+    margin: 0 auto;
+    background-image: linear-gradient(left , black 0%, black 10%, black 78%);
+    margin-top: 200px;
+}
+
+
+.social-box{
+    width: 50%;
+    height: 100px;
+    
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 3em;
+
+}
+.instalogo{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    width: 10%;
+    height: 160px;
+   
+
+}
+
+.bottom-container{
+    width: 50%;
+    margin:0 auto;
+    background-color: aliceblue;
+   
+}
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.right-container{
+
+    float: right;
+    
+    
+}
+.left-container{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1 1;
+    white-space: nowrap;
+
+    
+}
+.left-container_logo{
+    display: block;
+    
+    
+    background: url(images/ZAHRAlogolast.png);
+    background-position: 50% 50%;
+    background-size: cover;
+   
+
+
+
+      width: 15%;
+      
+      
+      margin-left: auto;
+      margin-right:auto;
+      
+      
+      padding-left: 700px;
+     
+      height: 0;
+      padding:10% 0;
+      border-radius: 50%;
+
+      
+     }
+
+
+    
+     .contact{
+         width: 80%;
+         height: 200px;
+         border: 2px solid black;
+         margin: 0 auto;
+         text-align: center;
+         padding-top: 50px;
+         margin-top: 2em;
+         margin-bottom: 40px;
+
+     }
+  /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+    margin-top: 20px;;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+
+
+  .navbar{
+      display: flex;
+      align-items: center;
+      padding: 20px;
+
+  }
+
+nav{
+
+    flex: 1;
+    text-align: right;
+  }
+
+nav ul{
+      display: inline-block;
+      list-style-type: none;
+  }
+
+  nav ul li{
+      display: inline-block;
+      margin-right: 20px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+   
